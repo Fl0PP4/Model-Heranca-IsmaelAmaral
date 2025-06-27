@@ -1,0 +1,117 @@
+public class Elenco extends Banda{
+    private Float salario;
+    String nomedovocal;
+    String nomedobaterista;
+    String nomedoguitarrista;
+    String nomedobassista;
+    String nomedotecladista;
+    private String nomedoprodutor;
+    String nomedoguitarrista2;
+    String nomedoDJ;
+    String nomedopercussionista;
+    private Float lucroporalbum;
+
+
+public Elenco() {
+    
+super();
+}
+
+public Elenco(String nomedaBanda ,
+    String AnoDeFormacao,
+    int numeroDeIntegrantes,
+    Float salario, String nomedovocal, String nomedobaterista, String nomedoguitarrista, String nomedobassista, String nomedotecladista, String nomedoprodutor, String nomedoguitarrista2, String nomedoDJ, String nomedopercussionista, Float lucroporalbum) {
+
+    super(nomedaBanda, AnoDeFormacao, numeroDeIntegrantes, salario);
+
+    this.salario = salario;
+    this.nomedovocal = nomedovocal;
+    this.nomedobaterista = nomedobaterista;
+    this.nomedoguitarrista = nomedoguitarrista;
+    this.nomedobassista = nomedobassista;
+    this.nomedotecladista = nomedotecladista;
+    this.nomedoprodutor = nomedoprodutor;
+    this.nomedoguitarrista2 = nomedoguitarrista2;
+    this.nomedoDJ = nomedoDJ;
+    this.nomedopercussionista = nomedopercussionista;
+    this.lucroporalbum = lucroporalbum;
+}
+public String getNomedaBanda() {
+    return nomedaBanda;
+}
+public String getAnoDeFormacao() {
+    return AnoDeFormacao;
+}
+public int getNumeroDeIntegrantes() {
+    return numeroDeIntegrantes;
+}
+public Float getValorDoShow() {
+    return valorDoShow;
+}
+public Float getSalario() {
+    return salario;
+}
+public String getNomedovocal() {
+    return nomedovocal;
+}
+public String getNomedobaterista() {
+    return nomedobaterista;
+}
+public String getNomedoguitarrista() {
+    return nomedoguitarrista;
+}
+public String getNomedobassista() {
+    return nomedobassista;
+}
+public String getNomedotecladista() {       
+    return nomedotecladista;
+}
+public String getNomedoprodutor() {
+    return nomedoprodutor;
+}
+public String getNomedoguitarrista2() {
+    return nomedoguitarrista2;
+}
+public String getNomedoDJ() {
+    return nomedoDJ;
+}
+public String getNomedopercussionista() {
+    return nomedopercussionista;
+}
+public Float getLucroporalbum() {
+    return lucroporalbum;
+}
+public void setSalario(Float salario) {
+    this.salario = salario;
+}
+public void setNomedovocal(String nomedovocal) {
+    this.nomedovocal = nomedovocal;
+}
+public void setNomedobaterista(String nomedobaterista) {
+    this.nomedobaterista = nomedobaterista;
+}
+public void setNomedoguitarrista(String nomedoguitarrista) {
+    this.nomedoguitarrista = nomedoguitarrista;
+}
+public void setNomedobassista(String nomedobassista) {
+    this.nomedobassista = nomedobassista;
+}
+public void setNomedotecladista(String nomedotecladista) {
+    this.nomedotecladista = nomedotecladista;
+}
+public void setNomedoprodutor(String nomedoprodutor) {
+    this.nomedoprodutor = nomedoprodutor;
+}
+public void setNomedoguitarrista2(String nomedoguitarrista2) {
+    this.nomedoguitarrista2 = nomedoguitarrista2;
+}
+public void setNomedoDJ(String nomedoDJ) {
+    this.nomedoDJ = nomedoDJ;
+}
+public void setNomedopercussionista(String nomedopercussionista) {
+    this.nomedopercussionista = nomedopercussionista;
+}
+public void setLucroporalbum(Float lucroporalbum) {
+    this.lucroporalbum = lucroporalbum;
+}
+}
