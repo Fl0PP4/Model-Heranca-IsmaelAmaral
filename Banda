@@ -1,0 +1,17 @@
+public class Banda {
+    String nomedaBanda ;
+    String AnoDeFormacao;
+    int numeroDeIntegrantes;
+    
+    Float valorDoShow;
+
+public Banda(){}
+
+public Banda (String nomedaBanda, String AnoDeFormacao, int numeroDeIntegrantes,  Float valorDoShow) {
+    this.nomedaBanda = nomedaBanda;
+    this.AnoDeFormacao = AnoDeFormacao;
+    this.numeroDeIntegrantes = numeroDeIntegrantes;
+    this.valorDoShow = valorDoShow;
+}
+}
+
